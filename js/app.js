@@ -5,7 +5,7 @@ let othersLink = document.querySelector("a.others");
 dianaLink.addEventListener("click", event => {
   event.preventDefault();
   let xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function() {
+  xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       let article = document.querySelector(".first-article");
 
@@ -19,7 +19,7 @@ dianaLink.addEventListener("click", event => {
 ogostaLink.addEventListener("click", event => {
   event.preventDefault();
   let xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function() {
+  xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       let article = document.querySelector(".first-article");
 
@@ -33,7 +33,7 @@ ogostaLink.addEventListener("click", event => {
 othersLink.addEventListener("click", event => {
   event.preventDefault();
   let xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function() {
+  xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       let article = document.querySelector(".first-article");
 

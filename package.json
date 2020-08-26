@@ -1,0 +1,23 @@
+{
+  "name": "montana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d montana"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/famousloser/-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://famousloser.github.io/montanasite"
+  },
+  "homepage": "https://github.com/famousloser/",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
